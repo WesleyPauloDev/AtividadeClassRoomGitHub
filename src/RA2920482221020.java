@@ -1,0 +1,77 @@
+public class RA2920482221020 {
+
+    private String nomeCompleto = "Wesley Paulo";
+    private int idade = 38;
+    private String gitHub = "https://github.com/WesleyPauloDev";
+    private String linkedIn = "https://www.linkedin.com/in/wesley-paulo-ti/";
+    private String curso = "Análise e Desenvolvimento de Sistemas";
+    private String turma = "4º Semestre";
+
+    public RA2920482221020() { }
+
+    public RA2920482221020(String nomeCompleto, int idade, String gitHub, String linkedIn, String curso, String turma) {
+        this.nomeCompleto = nomeCompleto;
+        this.idade = idade;
+        this.gitHub = gitHub;
+        this.linkedIn = linkedIn;
+        this.curso = curso;
+        this.turma = turma;
+    }
+
+    public String getNomeCompleto() {
+        return nomeCompleto;
+    }
+
+    public void setNomeCompleto(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getGitHub() {
+        return gitHub;
+    }
+
+    public void setGitHub(String gitHub) {
+        this.gitHub = gitHub;
+    }
+
+    public String getLinkedIn() {
+        return linkedIn;
+    }
+
+    public void setLinkedIn(String linkedIn) {
+        this.linkedIn = linkedIn;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    public String getTurma() {
+        return turma;
+    }
+
+    public void setTurma(String turma) {
+        this.turma = turma;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome Completo = " + nomeCompleto + "\nIdade = " + idade + "\nGitHub = " + gitHub
+                + "\nLinkedIn = " + linkedIn + "\nCurso = " + curso + "\nTurma = " + turma;
+    }
+}
+
+
+
